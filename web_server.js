@@ -48,9 +48,9 @@ function readFile(fileName, name) {
 	let file = '';
 	try {
 		if(name === "none"){
-			file = fs.readdirSync("Data\\" + fileName, 'utf8');
+			file = fs.readdirSync("\\Data\\" + fileName, 'utf8');
 		}else{
-			file = fs.readdirSync("Data\\" + fileName + "\\" + name, 'utf8');
+			file = fs.readdirSync("\\Data\\" + fileName + "\\" + name, 'utf8');
     }
 	} catch(e) {
 		console.log('Error:', e.stack);
@@ -64,9 +64,9 @@ function MyFile(name, mode) {
   let myFile = '';
   try {
 		if(mode === "1"){
-			myFile = fs.readFileSync("Data\\Members\\" + name + "\\info.txt", 'utf8');
+			myFile = fs.readFileSync("\\Data\\Members\\" + name + "\\info.txt", 'utf8');
 		}else{
-			myFile = fs.readFileSync("Data/newMembers.txt", 'utf8');
+			myFile = fs.readFileSync("/Data/newMembers.txt", 'utf8');
 		}
 	} catch(e) {
 		console.log('Error:', e.stack);
