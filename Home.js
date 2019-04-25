@@ -62,7 +62,7 @@ used for Home.html, About.html, ExecutiveBoard.html, Events.html, Member.html
 			function slideShow(responseText, name){
 				let json = JSON.parse(responseText);
 				for(let i = 0; i < json.length; i++){
-					let url = 'Data\\Photos\\' + name + '\\' + json[i];
+					let url = '\\Data\\Photos\\' + name + '\\' + json[i];
 					let myDiv = document.getElementById("row");
 					let div = document.createElement("div");
 					div.className = "column";
@@ -148,7 +148,7 @@ used for Home.html, About.html, ExecutiveBoard.html, Events.html, Member.html
 				"w_170,h_179,al_c,q_80,usm_0.66_1.00_0.01/9edf81_b80c" +
 				"e19bedbb4557acc606097a1db079.jpg";
 			}else{
-				url = 'Data/Members/' + myId + '/' + this.value;
+				url = '/Data/Members/' + myId + '/' + this.value;
 			}
 			let myDiv = document.getElementById(myId);
 
