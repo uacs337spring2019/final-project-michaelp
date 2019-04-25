@@ -2,14 +2,14 @@
   "name": "eller",
   "version": "1.0.0",
   "description": "website",
-  "main": "web_server.js",
+  "main": "Home.js",
   "engines": {
     "node": "10.15.1"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.1-security"
 },
   "devDependencies": {},
   "scripts": {
