@@ -31,7 +31,7 @@ app.use(function(req, res, next) {
 
 
 app.use(express.static('public'));
-app.use(express.static(___dirname));
+app.use(express.static(__dirname));
 
 /** reads data asynchronously fromt he passed in file name **/
 /** returns the contents of the file as a string **/
