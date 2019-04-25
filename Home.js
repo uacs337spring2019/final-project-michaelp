@@ -40,8 +40,8 @@ used for Home.html, About.html, ExecutiveBoard.html, Events.html, Member.html
 
 	/** gets the appropriate data from server depending on parameters **/
 		function callAjax(mode, name){
-			let url = "http://localhost:" +  process.env.PORT + "/?mode="+mode+"&name=" + name;
-			//let url = "http://eller" +  process.env.PORT + "/?mode="+mode+"&name=" + name + ".herokuapp.com"
+			//let url = "http://localhost:3000/?mode="+mode+"&name=" + name;
+			let url = "http://eller.herokuapp.com/?mode="+mode+"&name=" + name;
 			fetch(url)
 				.then(checkStatus)
 				.then(function(responseText) {
@@ -179,7 +179,8 @@ used for Home.html, About.html, ExecutiveBoard.html, Events.html, Member.html
 		let last = document.getElementById("theLast").value;
 		let email = document.getElementById("theEmail").value;
 		let why= document.getElementById("theWhy").value;
-		let url = "http://localhost:" +  process.env.PORT + "/";
+		//let url = "http://localhost:3000/";
+		let url = "http://eller.herokuapp.com/";
 		const message = {first: first,
 			last: last,
 			email: email,
