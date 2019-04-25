@@ -50,7 +50,7 @@ function readFile(fileName, name) {
 		if(name === "none"){
 			file = fs.readdirSync("Data\\" + fileName, 'utf8');
 		}else{
-			file = fs.readdirSync("Data\\" + fileName + "\\" + name, 'utf8');
+			file = fs.readdirSync("Data/" + fileName + "/" + name, 'utf8');
     }
 	} catch(e) {
 		console.log('Error:', e.stack);
