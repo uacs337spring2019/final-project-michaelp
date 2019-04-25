@@ -46,6 +46,7 @@ used for Home.html, About.html, ExecutiveBoard.html, Events.html, Member.html
 				.then(checkStatus)
 				.then(function(responseText) {
 					if(mode === "Photos"){
+						console.log(responseText);
 						slideShow(responseText, name);
 					}else if(mode === "newMembers"){
 						myNews(responseText);
