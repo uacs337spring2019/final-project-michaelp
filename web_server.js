@@ -123,6 +123,8 @@ app.get('', function (req, res) {
 
 	let mode = req.query.mode;
 	let name = req.query.name;
+	console.log(mode);
+	console.log(name);
 
   let myfile = "";
 
