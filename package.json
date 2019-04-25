@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "eller",
   "version": "1.0.0",
-  "description": "",
+  "description": "website",
   "main": "Home.js",
   "dependencies": {
     "client-sessions": "^0.8.0",
