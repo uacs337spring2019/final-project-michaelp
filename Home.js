@@ -76,11 +76,11 @@ used for Home.html, About.html, ExecutiveBoard.html, Events.html, Member.html
 					myDiv.appendChild(div);
 				}
 
-				//let myPic = document.getElementById(json[0]);
-				//let expandImg = document.getElementById("expandedImg");
-				//let imgText = document.getElementById("imgtext");
-				//expandImg.src = myPic.src;
-				//imgText.innerHTML =  myPic.id.replace(".jpg", '') + ":";
+				let myPic = document.getElementById(json[0]);
+				let expandImg = document.getElementById("expandedImg");
+				let imgText = document.getElementById("imgtext");
+				expandImg.src = myPic.src;
+				imgText.innerHTML =  myPic.id.replace(".jpg", '') + ":";
 			}
 
 
