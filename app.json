@@ -1,6 +1,6 @@
 {
   "name": "eller website",
-  "description": "A barebones Node.js app using Express 4",
+  "description": "A website based on the eller hispanic honorary website",
   "repository": "https://github.com/uacs337spring2019/fina-project-michaelp",
   "logo": "https://media.licdn.com/dms/image/C560BAQHrB8i7dwX-5A/company-logo_200_200/0?e=2159024400&v=beta&t=7l4XgNJo11XDAeY3Wfe5ccF_brh_qM6ardkamiyJAQw",
   "keywords": ["node", "express", "static"]
