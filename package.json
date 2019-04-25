@@ -17,6 +17,10 @@
     "start": "node web_server.js"
 
 },
+  "repository"{
+  "type": "git",
+  "url"
+},
   "author": "Michael",
   "license": "ISC"
 }
