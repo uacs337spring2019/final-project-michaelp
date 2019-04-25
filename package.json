@@ -14,7 +14,6 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "homepage": "https://github.com/uacs337spring2019/final-project-nathonbreakout/index.js",
     "start": "node web_server.js"
 
 },
