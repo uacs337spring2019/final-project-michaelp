@@ -138,7 +138,7 @@ app.get('', function (req, res) {
 });
 
 
-app.post('', jsonParser, function (req, res) {
+app.post('/', jsonParser, function (req, res) {
 	res.header("Access-Control-Allow-Origin", "*");
   let first = req.body.first;
 	let last = req.body.last;
