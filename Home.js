@@ -61,7 +61,7 @@ used for Home.html, About.html, ExecutiveBoard.html, Events.html, Member.html
 /** sets up the picture scroller based on what folder it reads from**/
 			function slideShow(responseText, name){
 				let json = JSON.parse(responseText);
-				console.log("json");
+				console.log(json);
 				for(let i = 0; i < json.length; i++){
 					let url = 'Data\\Photos\\' + name + '\\' + json[i];
 					consol.log(url);
