@@ -65,7 +65,7 @@ used for Home.html, About.html, ExecutiveBoard.html, Events.html, Member.html
 				console.log(json);
 				for(let i = 0; i < json.length; i++){
 					let url = 'Data/Photos/' + name + '/' + json[i];
-					consol.log(url);
+					console.log(url);
 					let myDiv = document.getElementById("row");
 					let div = document.createElement("div");
 					div.className = "column";
