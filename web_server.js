@@ -31,6 +31,7 @@ app.use(function(req, res, next) {
 
 
 app.use(express.static('public'));
+app.use(express.static(___dirname));
 
 /** reads data asynchronously fromt he passed in file name **/
 /** returns the contents of the file as a string **/
@@ -107,7 +108,7 @@ function buildJson(myLine) {
 
 
 console.log('web service started');
-app.get('/', function (req, res) {
+app.get('', function (req, res) {
 	res.header("Access-Control-Allow-Origin", "*");
 
 
@@ -137,7 +138,7 @@ app.get('/', function (req, res) {
 });
 
 
-app.post('/', jsonParser, function (req, res) {
+app.post('', jsonParser, function (req, res) {
 	res.header("Access-Control-Allow-Origin", "*");
   let first = req.body.first;
 	let last = req.body.last;
