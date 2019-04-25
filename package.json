@@ -2,7 +2,7 @@
   "name": "eller",
   "version": "1.0.0",
   "description": "website",
-  "main": "Home.html",
+  "main": "Home.js",
   "engines": {
     "node": "10.15.1"
   },
